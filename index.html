@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+</head>
+<body>
+
+   <form action="/submit" method="post">
+    <fieldset>
+        <legend>Personal Information</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+
+    <br>
+    <br>
+    <label for="mname">Middle name:</label>
+    <input type="text" id="mname" name="mname">
+    <br>
+    <br>
+    <label for="lmame">Last name:</label>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <br>
+
+    <label for="c">Course:</label>
+    <select name="c" id="c" required>
+         <option value="disabled selected">Select Course</option>
+        <option value="Gradution">Gradution</option>
+        <option value="postgraduation">postgraduation</option>
+
+    </select>
+        <br><br>
+
+    <label for="Gender">Gender:</label>
+    <br>
+    
+    <input type="radio" id="Gender" name="Gender" value="male" value="Male"> Male 
+    <br>
+    <input type="radio" id="Gender" name="Gender" value="Female" > Female
+    <br>
+    <input type="radio" id="Gender" name="Gender" value="Other" > Other
+    <br>
+    <input type="datetime-local" name="Meeting-time">
+    <br>
+    <br>
+    <label for="phone">Phone:</label>
+    <input type="tel" name="phone">
+    <br>
+    <br>
+    <label for="comments">Address</label>
+    <br>
+    <textarea name="comments" id="comments" rows="4" cols="60" placeholder="Type Here Your Address" required></textarea>
+    <br>
+    <br>
+    <label for="mail">Email:</label>
+    <input type="email" name="mail" id="mail">
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <br>
+    <br>
+    <label for="retype">Re-type password:</label>
+    <input type="password" name="retype" id="retype">
+    <br>
+    <br>
+    <input type="checkbox" name="agree" id="agree">Agree to terms and conditions
+    <br>
+    <br>
+    <label for="file">Choose File</label>
+    <input type="file" name="file" id="file" value="file">
+    <br>
+    <br>
+    <label for="color">Choose Color</label>
+    <input type="color" name="color" id="color" value="color">
+    <br>
+    <br>
+    <input type="reset" value="reset">
+    <input type="submit" value="Submit">
+    </fieldset>
+   </form>
+    
+</body>
+</html>
